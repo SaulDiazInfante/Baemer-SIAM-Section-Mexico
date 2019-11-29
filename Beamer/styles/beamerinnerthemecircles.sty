@@ -1,0 +1,76 @@
+% Copyright 2007 by Till Tantau
+%
+% This file may be distributed and/or modified
+%
+% 1. under the LaTeX Project Public License and/or
+% 2. under the GNU Public License.
+%
+% See the file doc/licenses/LICENSE for more details.
+
+\ProvidesPackageRCS $Header: /home/vedranm/bitbucket/beamer/base/themes/inner/beamerinnerthemecircles.sty,v d02a7cf4d8ae 2010/06/17 09:11:41 rivanvx $
+\RequirePackage{tikz}
+\usetikzlibrary{fadings}
+\RequirePackage{ifthen}
+
+
+
+\mode
+<all>
+\mode<presentation>
+
+\setbeamertemplate{items}%[circle]
+\setbeamertemplate{sections/subsections in toc}%[circle]
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Bibliography...
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\biblio}[1]{
+  \begin{center}
+    \usebeamercolor{block body}
+    \begin{tikzpicture}
+      \draw node[draw=black!20!bg, fill=bg, rounded corners=2pt] {\parbox{0.95\textwidth}{\vskip -0.2cm\putbib[#1]\vskip0.1cm}};
+    \end{tikzpicture}
+    \twopton{}
+\end{center}
+}
+
+\defbeamertemplate*{bibliography item}{progressbar theme}{
+  \begin{tikzpicture}[rounded corners=1pt]
+    \useasboundingbox (-0.1, 0.3) rectangle (0.4, 0.5);
+    \fill[fill=structure.fg!25!structure.bg] (0, 0.25) rectangle (0.4, 0.5);
+    \shade[bottom color=structure.bg,top color=structure.fg!25!structure.bg] (0, 0) -- (0.3, 0) -- (0.4, 0.12) -- (0.4, 0.3) -- (0, 0.3) -- cycle;
+    \shade[left color=structure.bg,right color=structure.fg!30!structure.bg] (0,0.27) .. controls (0.25,0.25) .. (0.4,0.5) -- (0,0.5) -- cycle;
+    \fill[fill=structure.bg!80!structure.fg] (0,0) rectangle (0.3,0.05);
+    \shade[left color=structure.bg!95!structure.fg,right color=structure.bg!80!structure.fg] (0,0) rectangle (0.05,0.5);
+    \shade[left color=structure.bg,right color=structure.bg!50!structure.fg,shading angle=45] (0.3,0) -- (0.3,0.12) -- (0.4,0.12) -- cycle;
+    \draw[draw=structure.fg!35!structure.bg] (0,0) -- (0.3,0) -- (0.4,0.12) -- (0.4,0.5) -- (0,0.5) -- cycle;
+    \draw[draw=structure.fg!35!structure.bg](0.3,0) -- (0.3,0.12) -- (0.4,0.12);
+  \end{tikzpicture}
+}
+
+\def\bibitem{\@ifnextchar<{\beamer@bibitem@store}{\gdef\beamer@bibstore{}\beamer@plainbibitem}}
+\def\beamer@bibitem@store<#1>{\gdef\beamer@bibstore{<#1>}\beamer@plainbibitem}
+\def\beamer@plainbibitem{\@ifnextchar[\@lbibitem\beamer@bibitem}
+\def\@lbibitem[#1]#2{\expandafter\item\beamer@bibstore[\@biblabel{#1}\hfill]%
+  \@ifundefined{beamerbib@#2@\the\c@framenumber}{\if@filesw%
+    {\let\protect\noexpand%
+      \immediate\write\@auxout%
+      {\string\bibcite{#2}{\noexpand\hyperlink{beamerbib#2}{#1}}}}\fi%
+    \global\@namedef{beamerbib@#2@\the\c@framenumber}{\relax}%
+    \hypertarget{beamerbib#2}{}%
+    }{}%
+  \def\newblock{\beamer@newblock}\newblock\hskip-0.8ex}% This is really dirty !
+%  \hbox{}\ignorespaces}
+\def\beamer@bibitem#1{\@bibitem{#1}\ignorespaces}
+\def\@bibitem#1{\expandafter\item\beamer@bibstore\@ifundefined{beamerbib@#1@\the\c@framenumber}%
+  {\if@filesw \immediate\write\@auxout
+    {\string\bibcite{#1}{\noexpand\hyperlink{beamerbib#1}{\the\value{\@listctr}}}}\fi%
+    \global\@namedef{beamerbib@#1@\the\c@framenumber}{\relax}%
+    \hypertarget{beamerbib#1}{}}%
+  {}%
+  \def\newblock{\beamer@newblock}\newblock}

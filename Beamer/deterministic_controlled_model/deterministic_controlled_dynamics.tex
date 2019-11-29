@@ -1,0 +1,32 @@
+\begin{frame}{}
+    \begin{textblock*}{55mm}(2mm, 5mm)
+        \begin{bluebox}{}
+            \begin{align*}
+                \frac{dS_p}{dt} &=
+                    -\beta_p S_p I_v + 
+                    \textcolor<2->{azure(colorwheel)}{\textbf<2>{r}}
+                    (L_p + I_p)
+                    \\
+                \frac{dL_p}{dt} &=
+                    \beta_p S_p I_v -b L_p -
+                    \textcolor<2->{azure(colorwheel)}{\textbf<2>{r}}
+                    L_p
+                    \\
+                \frac{dI_p}{dt} &=
+                     b L_p -
+                    \textcolor<2->{azure(colorwheel)}{\textbf<2>{r}}
+                    I_p
+                    \\
+                \frac{dS_v}{dt} &=
+                    -\beta_v S_v I_p - 
+                    \textcolor<2->{cadmiumorange}{\gamma}
+                    S_v + (1-\theta)\mu
+                    \\
+                \frac{dI_v}{dt} &=
+                    \beta_v S_v I_p - 
+                    \textcolor<2->{cadmiumorange}{\gamma} I_v 
+                    + \theta\mu
+            \end{align*}
+        \end{bluebox}
+    \end{textblock*}
+\end{frame}
