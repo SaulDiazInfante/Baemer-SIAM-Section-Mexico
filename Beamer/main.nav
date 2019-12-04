@@ -45,19 +45,31 @@
 \headcommand {\beamer@sectionpages {38}{40}}
 \headcommand {\beamer@subsectionpages {38}{40}}
 \headcommand {\sectionentry {5}{Numeric Results}{41}{Numeric Results}{0}}
-\headcommand {\beamer@sectionpages {41}{40}}
-\headcommand {\beamer@subsectionpages {41}{40}}
-\headcommand {\sectionentry {6}{Stochastic extension}{41}{Stochastic extension}{0}}
-\headcommand {\beamer@sectionpages {41}{40}}
-\headcommand {\beamer@subsectionpages {41}{40}}
-\headcommand {\sectionentry {7}{Weak Formulation of the OC}{41}{Weak Formulation of the OC}{0}}
-\headcommand {\beamer@sectionpages {41}{40}}
-\headcommand {\beamer@subsectionpages {41}{40}}
-\headcommand {\sectionentry {8}{Perspectives}{41}{Perspectives}{0}}
-\headcommand {\slideentry {8}{1}{17}{41/41}{}{0}}
+\headcommand {\slideentry {5}{1}{17}{41/41}{}{0}}
 \headcommand {\beamer@framepages {41}{41}}
-\headcommand {\beamer@partpages {1}{41}}
-\headcommand {\beamer@subsectionpages {41}{41}}
-\headcommand {\beamer@sectionpages {41}{41}}
-\headcommand {\beamer@documentpages {41}}
-\headcommand {\gdef \inserttotalframenumber {17}}
+\headcommand {\slideentry {5}{1}{18}{42/42}{}{0}}
+\headcommand {\beamer@framepages {42}{42}}
+\headcommand {\slideentry {5}{1}{19}{43/43}{}{0}}
+\headcommand {\beamer@framepages {43}{43}}
+\headcommand {\slideentry {5}{1}{20}{44/44}{}{0}}
+\headcommand {\beamer@framepages {44}{44}}
+\headcommand {\slideentry {5}{1}{21}{45/45}{}{0}}
+\headcommand {\beamer@framepages {45}{45}}
+\headcommand {\slideentry {5}{1}{22}{46/46}{}{0}}
+\headcommand {\beamer@framepages {46}{46}}
+\headcommand {\beamer@sectionpages {41}{46}}
+\headcommand {\beamer@subsectionpages {41}{46}}
+\headcommand {\sectionentry {6}{Stochastic extension}{47}{Stochastic extension}{0}}
+\headcommand {\beamer@sectionpages {47}{46}}
+\headcommand {\beamer@subsectionpages {47}{46}}
+\headcommand {\sectionentry {7}{Weak Formulation of the OC}{47}{Weak Formulation of the OC}{0}}
+\headcommand {\beamer@sectionpages {47}{46}}
+\headcommand {\beamer@subsectionpages {47}{46}}
+\headcommand {\sectionentry {8}{Perspectives}{47}{Perspectives}{0}}
+\headcommand {\slideentry {8}{1}{23}{47/47}{}{0}}
+\headcommand {\beamer@framepages {47}{47}}
+\headcommand {\beamer@partpages {1}{47}}
+\headcommand {\beamer@subsectionpages {47}{47}}
+\headcommand {\beamer@sectionpages {47}{47}}
+\headcommand {\beamer@documentpages {47}}
+\headcommand {\gdef \inserttotalframenumber {23}}
