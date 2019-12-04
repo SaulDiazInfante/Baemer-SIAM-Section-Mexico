@@ -137,53 +137,51 @@
     }
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \begin{frame}[plain]
-	\begin{textblock*}{60mm}(5mm,5mm)
-		\begin{graybox}{Hypothesis:}
-			\begin{enumerate}[(\textbf{{C}}-1)]
-				\item
-					$
-					f:\mathbb{R}_{+}\times U
-					\times \mathbb{R}^n\rightarrow 
-					\mathbb{R}^n
-					$ is measurable, satisfies a lipchitz
-					condition in $x$,
-					$
-					|f(t,u,0)|\leq L,\,
-					\forall\,(t,u)\in
-					\mathbb{R}_{+}\times U .
-					$
-				\item
-					$
-					g:\mathbb{R}_{+}\times U\times 
-					\mathbb{R}^n\rightarrow \mathbb{R},
-					$ 
-					$
-					h:\mathbb{R}^n\rightarrow \mathbb{R}
-					$ are measurable, and
-					\begin{align*}
-					&|g(s,u,x_1)-g(s,u,x_2)|+\\
-					&|h(x_1)-h(x_2)|\\
-					&\leq \omega(|x_1|\vee |x_2|,|x_1-x_2|)
-					\end{align*}
-					$
-					\forall\, (s,u)\in \mathbb{R}_{+}
-					\times U,x_1,x_2\in \mathbb{R}^n
-					$.
-				\item
-					For a.a. $t\in[0,T]$, Cesari property holds $\forall$ $x\in 
-					\mathbb{R}^n$.
-			\end{enumerate}	
-		\end{graybox}
-	\end{textblock*}
-
-
-	
-	\begin{textblock*}{55mm}(70mm,15mm)
-		\begin{graybox}{Existence Theorem}
-			Let (C1)-(C3) hold. Then problem $(OC)$ admits at least one optimal 
-			pair.
-		\end{graybox}
-	\end{textblock*}
+    \begin{textblock*}{60mm}(5mm,5mm)
+        \begin{graybox}{Hypothesis:}
+            \begin{enumerate}[(\textbf{{C}}-1)]
+                \item
+                    $
+                        f:\mathbb{R}_{+}\times U
+                        \times \mathbb{R}^n\rightarrow 
+                        \mathbb{R}^n
+                    $ 
+                    is measurable, satisfies a Lipchitz
+                    condition in $x$,
+                    $
+                        |f(t,u,0)|\leq L,\,
+                        \forall\,(t,u)\in
+                        \mathbb{R}_{+}\times U .
+                    $
+                \item
+                    $
+                        g:\mathbb{R}_{+}\times U\times 
+                        \mathbb{R}^n\rightarrow \mathbb{R},
+                    $ 
+                    $
+                        h:\mathbb{R}^n\rightarrow \mathbb{R}
+                    $ are measurable, and
+                    \begin{align*}
+                        &|g(s,u,x_1)-g(s,u,x_2)|+\\
+                        &|h(x_1)-h(x_2)|\\
+                        &\leq \omega(|x_1|\vee |x_2|,|x_1-x_2|)
+                    \end{align*}
+                    $
+                        \forall\, (s,u)\in \mathbb{R}_{+}
+                        \times U,x_1,x_2\in \mathbb{R}^n
+                    $.
+                \item
+                    For a.a. $t\in[0,T]$, Cesari property holds $\forall$ $x\in 
+                    \mathbb{R}^n$.
+            \end{enumerate}	
+        \end{graybox}
+    \end{textblock*}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \begin{textblock*}{55mm}(70mm,15mm)
+        \begin{greenbox}{Existence Theorem}
+            Let (C-1)-(C-3) hold. Then problem $(OC)$ admits at least one 
+            optimal pair.
+        \end{greenbox}
+    \end{textblock*}
 \end{frame}
