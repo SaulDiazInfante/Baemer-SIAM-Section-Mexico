@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.10)  6 DEC 2019 12:55
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.10)  5 DEC 2019 22:00
+>>>>>>> dbf4a9ca39b534c274b4dd662abda3ff259fb3da
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2338,7 +2342,11 @@ Package epstopdf Info: Source file: <assets/deterministic_model_diagram.eps>
 (epstopdf)                    size: 162417 bytes
 (epstopdf)             Output file: <./deterministic_model_diagram-eps-converte
 d-to.pdf>
+<<<<<<< HEAD
 (epstopdf)                    date: 2019-12-06 12:54:01
+=======
+(epstopdf)                    date: 2019-12-05 22:00:04
+>>>>>>> dbf4a9ca39b534c274b4dd662abda3ff259fb3da
 (epstopdf)                    size: 43461 bytes
 (epstopdf)             Command: <repstopdf --outfile=./deterministic_model_diag
 ram-eps-converted-to.pdf assets/deterministic_model_diagram.eps>
@@ -2365,7 +2373,11 @@ Package epstopdf Info: Source file: <assets/deterministic_model_diagram.eps>
 (epstopdf)                    size: 162417 bytes
 (epstopdf)             Output file: <./deterministic_model_diagram-eps-converte
 d-to.pdf>
+<<<<<<< HEAD
 (epstopdf)                    date: 2019-12-06 12:54:01
+=======
+(epstopdf)                    date: 2019-12-05 22:00:04
+>>>>>>> dbf4a9ca39b534c274b4dd662abda3ff259fb3da
 (epstopdf)                    size: 43461 bytes
 (epstopdf)             Command: <repstopdf --outfile=./deterministic_model_diag
 ram-eps-converted-to.pdf assets/deterministic_model_diagram.eps>
@@ -2389,7 +2401,11 @@ Package epstopdf Info: Source file: <assets/deterministic_model_diagram.eps>
 (epstopdf)                    size: 162417 bytes
 (epstopdf)             Output file: <./deterministic_model_diagram-eps-converte
 d-to.pdf>
+<<<<<<< HEAD
 (epstopdf)                    date: 2019-12-06 12:54:01
+=======
+(epstopdf)                    date: 2019-12-05 22:00:04
+>>>>>>> dbf4a9ca39b534c274b4dd662abda3ff259fb3da
 (epstopdf)                    size: 43461 bytes
 (epstopdf)             Command: <repstopdf --outfile=./deterministic_model_diag
 ram-eps-converted-to.pdf assets/deterministic_model_diagram.eps>
@@ -2413,7 +2429,11 @@ Package epstopdf Info: Source file: <assets/deterministic_model_diagram.eps>
 (epstopdf)                    size: 162417 bytes
 (epstopdf)             Output file: <./deterministic_model_diagram-eps-converte
 d-to.pdf>
+<<<<<<< HEAD
 (epstopdf)                    date: 2019-12-06 12:54:01
+=======
+(epstopdf)                    date: 2019-12-05 22:00:04
+>>>>>>> dbf4a9ca39b534c274b4dd662abda3ff259fb3da
 (epstopdf)                    size: 43461 bytes
 (epstopdf)             Command: <repstopdf --outfile=./deterministic_model_diag
 ram-eps-converted-to.pdf assets/deterministic_model_diagram.eps>
@@ -2437,7 +2457,11 @@ Package epstopdf Info: Source file: <assets/deterministic_model_diagram.eps>
 (epstopdf)                    size: 162417 bytes
 (epstopdf)             Output file: <./deterministic_model_diagram-eps-converte
 d-to.pdf>
+<<<<<<< HEAD
 (epstopdf)                    date: 2019-12-06 12:54:01
+=======
+(epstopdf)                    date: 2019-12-05 22:00:04
+>>>>>>> dbf4a9ca39b534c274b4dd662abda3ff259fb3da
 (epstopdf)                    size: 43461 bytes
 (epstopdf)             Command: <repstopdf --outfile=./deterministic_model_diag
 ram-eps-converted-to.pdf assets/deterministic_model_diagram.eps>
@@ -2461,7 +2485,11 @@ Package epstopdf Info: Source file: <assets/deterministic_model_diagram.eps>
 (epstopdf)                    size: 162417 bytes
 (epstopdf)             Output file: <./deterministic_model_diagram-eps-converte
 d-to.pdf>
+<<<<<<< HEAD
 (epstopdf)                    date: 2019-12-06 12:54:01
+=======
+(epstopdf)                    date: 2019-12-05 22:00:04
+>>>>>>> dbf4a9ca39b534c274b4dd662abda3ff259fb3da
 (epstopdf)                    size: 43461 bytes
 (epstopdf)             Command: <repstopdf --outfile=./deterministic_model_diag
 ram-eps-converted-to.pdf assets/deterministic_model_diagram.eps>
@@ -2645,7 +2673,168 @@ Package pdftex.def Info: assets/Society_for_Industrial_and_Applied_Mathematics_
 (pdftex.def)             Requested size: 43.69925pt x 11.72418pt.
  [43
 
+<<<<<<< HEAD
  <./assets/fbs_algorithm.pdf>])
+=======
+ <./assets/fbs_algorithm.pdf>]
+Package epstopdf Info: Source file: <numerical_results/figure_1_tylc_only_contr
+ol_fumigation.eps>
+(epstopdf)                    date: 2019-12-04 10:33:17
+(epstopdf)                    size: 213268 bytes
+(epstopdf)             Output file: <./figure_1_tylc_only_control_fumigation-ep
+s-converted-to.pdf>
+(epstopdf)                    date: 2019-12-05 22:00:05
+(epstopdf)                    size: 15638 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figure_1_tylc_only_contr
+ol_fumigation-eps-converted-to.pdf numerical_results/figure_1_tylc_only_control
+_fumigation.eps>
+(epstopdf)             \includegraphics on input line 10.
+Package epstopdf Info: Output file is already uptodate.
+<./figure_1_tylc_only_control_fumigation-eps-converted-to.pdf, id=385, 340.2712
+6pt x 208.78pt>
+File: ./figure_1_tylc_only_control_fumigation-eps-converted-to.pdf Graphic file
+ (type pdf)
+<use ./figure_1_tylc_only_control_fumigation-eps-converted-to.pdf>
+Package pdftex.def Info: ./figure_1_tylc_only_control_fumigation-eps-converted-
+to.pdf  used on input line 10.
+(pdftex.def)             Requested size: 340.27042pt x 208.77946pt.
+File: assets/Society_for_Industrial_and_Applied_Mathematics_(logo).png Graphic 
+file (type png)
+<use assets/Society_for_Industrial_and_Applied_Mathematics_(logo).png>
+Package pdftex.def Info: assets/Society_for_Industrial_and_Applied_Mathematics_
+(logo).png  used on input line 10.
+(pdftex.def)             Requested size: 43.69925pt x 11.72418pt.
+
+Overfull \vbox (1.02147pt too high) detected at line 10
+ []
+
+[44
+
+ <./figure_1_tylc_only_control_fumigation-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <numerical_results/figure_1_tomato_controll
+ed_by_replanting_infected.eps>
+(epstopdf)                    date: 2019-12-05 12:09:08
+(epstopdf)                    size: 203399 bytes
+(epstopdf)             Output file: <./figure_1_tomato_controlled_by_replanting
+_infected-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-12-05 22:00:06
+(epstopdf)                    size: 13496 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figure_1_tomato_controll
+ed_by_replanting_infected-eps-converted-to.pdf numerical_results/figure_1_tomat
+o_controlled_by_replanting_infected.eps>
+(epstopdf)             \includegraphics on input line 17.
+Package epstopdf Info: Output file is already uptodate.
+<./figure_1_tomato_controlled_by_replanting_infected-eps-converted-to.pdf, id=4
+19, 337.26pt x 201.75375pt>
+File: ./figure_1_tomato_controlled_by_replanting_infected-eps-converted-to.pdf 
+Graphic file (type pdf)
+<use ./figure_1_tomato_controlled_by_replanting_infected-eps-converted-to.pdf>
+Package pdftex.def Info: ./figure_1_tomato_controlled_by_replanting_infected-ep
+s-converted-to.pdf  used on input line 17.
+(pdftex.def)             Requested size: 337.25917pt x 201.75325pt.
+File: assets/Society_for_Industrial_and_Applied_Mathematics_(logo).png Graphic 
+file (type png)
+<use assets/Society_for_Industrial_and_Applied_Mathematics_(logo).png>
+Package pdftex.def Info: assets/Society_for_Industrial_and_Applied_Mathematics_
+(logo).png  used on input line 17.
+(pdftex.def)             Requested size: 43.69925pt x 11.72418pt.
+ [45
+
+ <./figure_1_tomato_controlled_by_replanting_infected-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <numerical_results/figure_1_tomato_replanti
+ng_and_fumigation.eps>
+(epstopdf)                    date: 2019-12-04 11:01:16
+(epstopdf)                    size: 212039 bytes
+(epstopdf)             Output file: <./figure_1_tomato_replanting_and_fumigatio
+n-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-12-05 22:00:06
+(epstopdf)                    size: 15067 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figure_1_tomato_replanti
+ng_and_fumigation-eps-converted-to.pdf numerical_results/figure_1_tomato_replan
+ting_and_fumigation.eps>
+(epstopdf)             \includegraphics on input line 25.
+Package epstopdf Info: Output file is already uptodate.
+<./figure_1_tomato_replanting_and_fumigation-eps-converted-to.pdf, id=439, 337.
+26pt x 206.7725pt>
+File: ./figure_1_tomato_replanting_and_fumigation-eps-converted-to.pdf Graphic 
+file (type pdf)
+<use ./figure_1_tomato_replanting_and_fumigation-eps-converted-to.pdf>
+Package pdftex.def Info: ./figure_1_tomato_replanting_and_fumigation-eps-conver
+ted-to.pdf  used on input line 25.
+(pdftex.def)             Requested size: 337.25917pt x 206.77199pt.
+File: assets/Society_for_Industrial_and_Applied_Mathematics_(logo).png Graphic 
+file (type png)
+<use assets/Society_for_Industrial_and_Applied_Mathematics_(logo).png>
+Package pdftex.def Info: assets/Society_for_Industrial_and_Applied_Mathematics_
+(logo).png  used on input line 25.
+(pdftex.def)             Requested size: 43.69925pt x 11.72418pt.
+ [46
+
+ <./figure_1_tomato_replanting_and_fumigation-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <numerical_results/figure_1_tomato_control_
+replanting.eps>
+(epstopdf)                    date: 2019-12-04 21:00:07
+(epstopdf)                    size: 213663 bytes
+(epstopdf)             Output file: <./figure_1_tomato_control_replanting-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2019-12-05 22:00:07
+(epstopdf)                    size: 15287 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figure_1_tomato_control_
+replanting-eps-converted-to.pdf numerical_results/figure_1_tomato_control_repla
+nting.eps>
+(epstopdf)             \includegraphics on input line 32.
+Package epstopdf Info: Output file is already uptodate.
+<./figure_1_tomato_control_replanting-eps-converted-to.pdf, id=461, 345.29pt x 
+213.79875pt>
+File: ./figure_1_tomato_control_replanting-eps-converted-to.pdf Graphic file (t
+ype pdf)
+<use ./figure_1_tomato_control_replanting-eps-converted-to.pdf>
+Package pdftex.def Info: ./figure_1_tomato_control_replanting-eps-converted-to.
+pdf  used on input line 32.
+(pdftex.def)             Requested size: 345.28914pt x 213.79822pt.
+File: assets/Society_for_Industrial_and_Applied_Mathematics_(logo).png Graphic 
+file (type png)
+<use assets/Society_for_Industrial_and_Applied_Mathematics_(logo).png>
+Package pdftex.def Info: assets/Society_for_Industrial_and_Applied_Mathematics_
+(logo).png  used on input line 32.
+(pdftex.def)             Requested size: 43.69925pt x 11.72418pt.
+
+Overfull \vbox (6.04022pt too high) detected at line 32
+ []
+
+[47
+
+ <./figure_1_tomato_control_replanting-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <numerical_results/control_cost.eps>
+(epstopdf)                    date: 2019-12-05 12:37:16
+(epstopdf)                    size: 27326 bytes
+(epstopdf)             Output file: <./control_cost-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-12-05 22:00:07
+(epstopdf)                    size: 14579 bytes
+(epstopdf)             Command: <repstopdf --outfile=./control_cost-eps-convert
+ed-to.pdf numerical_results/control_cost.eps>
+(epstopdf)             \includegraphics on input line 38.
+Package epstopdf Info: Output file is already uptodate.
+<./control_cost-eps-converted-to.pdf, id=484, 326.21875pt x 213.79875pt>
+File: ./control_cost-eps-converted-to.pdf Graphic file (type pdf)
+<use ./control_cost-eps-converted-to.pdf>
+Package pdftex.def Info: ./control_cost-eps-converted-to.pdf  used on input lin
+e 38.
+(pdftex.def)             Requested size: 326.21794pt x 213.79822pt.
+File: assets/Society_for_Industrial_and_Applied_Mathematics_(logo).png Graphic 
+file (type png)
+<use assets/Society_for_Industrial_and_Applied_Mathematics_(logo).png>
+Package pdftex.def Info: assets/Society_for_Industrial_and_Applied_Mathematics_
+(logo).png  used on input line 38.
+(pdftex.def)             Requested size: 43.69925pt x 11.72418pt.
+
+Overfull \vbox (6.04022pt too high) detected at line 38
+ []
+
+[48
+
+ <./control_cost-eps-converted-to.pdf>])
+>>>>>>> dbf4a9ca39b534c274b4dd662abda3ff259fb3da
 (./stochastic_optimal_control/stochastic_optimal_control.tex
 File: assets/Society_for_Industrial_and_Applied_Mathematics_(logo).png Graphic 
 file (type png)
@@ -2653,7 +2842,11 @@ file (type png)
 Package pdftex.def Info: assets/Society_for_Industrial_and_Applied_Mathematics_
 (logo).png  used on input line 36.
 (pdftex.def)             Requested size: 43.69925pt x 11.72418pt.
+<<<<<<< HEAD
  [44
+=======
+ [49
+>>>>>>> dbf4a9ca39b534c274b4dd662abda3ff259fb3da
 
 ]
 Underfull \hbox (badness 5274) in paragraph at lines 108--108
@@ -2666,7 +2859,11 @@ l/9 u\OT1/cmss/m/n/9 (\OMS/ztmcm/m/n/9 ^^A\OT1/cmss/m/n/9 ))$\T1/Roboto-LF/regu
 lar/n/9 , is a w-
  []
 
+<<<<<<< HEAD
 [45
+=======
+[50
+>>>>>>> dbf4a9ca39b534c274b4dd662abda3ff259fb3da
 
 ]
 Underfull \hbox (badness 5274) in paragraph at lines 108--108
@@ -2679,7 +2876,11 @@ l/9 u\OT1/cmss/m/n/9 (\OMS/ztmcm/m/n/9 ^^A\OT1/cmss/m/n/9 ))$\T1/Roboto-LF/regu
 lar/n/9 , is a w-
  []
 
+<<<<<<< HEAD
 [46
+=======
+[51
+>>>>>>> dbf4a9ca39b534c274b4dd662abda3ff259fb3da
 
 ]
 Underfull \hbox (badness 5274) in paragraph at lines 108--108
@@ -2692,7 +2893,11 @@ l/9 u\OT1/cmss/m/n/9 (\OMS/ztmcm/m/n/9 ^^A\OT1/cmss/m/n/9 ))$\T1/Roboto-LF/regu
 lar/n/9 , is a w-
  []
 
+<<<<<<< HEAD
 [47
+=======
+[52
+>>>>>>> dbf4a9ca39b534c274b4dd662abda3ff259fb3da
 
 ]
 Underfull \hbox (badness 5274) in paragraph at lines 108--108
@@ -2705,7 +2910,11 @@ l/9 u\OT1/cmss/m/n/9 (\OMS/ztmcm/m/n/9 ^^A\OT1/cmss/m/n/9 ))$\T1/Roboto-LF/regu
 lar/n/9 , is a w-
  []
 
+<<<<<<< HEAD
 [48
+=======
+[53
+>>>>>>> dbf4a9ca39b534c274b4dd662abda3ff259fb3da
 
 ]
 Underfull \hbox (badness 5274) in paragraph at lines 108--108
@@ -2718,7 +2927,11 @@ l/9 u\OT1/cmss/m/n/9 (\OMS/ztmcm/m/n/9 ^^A\OT1/cmss/m/n/9 ))$\T1/Roboto-LF/regu
 lar/n/9 , is a w-
  []
 
+<<<<<<< HEAD
 [49
+=======
+[54
+>>>>>>> dbf4a9ca39b534c274b4dd662abda3ff259fb3da
 
 ]
 Underfull \hbox (badness 5274) in paragraph at lines 108--108
@@ -2731,6 +2944,7 @@ l/9 u\OT1/cmss/m/n/9 (\OMS/ztmcm/m/n/9 ^^A\OT1/cmss/m/n/9 ))$\T1/Roboto-LF/regu
 lar/n/9 , is a w-
  []
 
+<<<<<<< HEAD
 [50
 
 ] [51
@@ -2744,6 +2958,21 @@ lar/n/9 , is a w-
 ] [55
 
 ] [56
+=======
+[55
+
+] [56
+
+] [57
+
+] [58
+
+] [59
+
+] [60
+
+] [61
+>>>>>>> dbf4a9ca39b534c274b4dd662abda3ff259fb3da
 
 ] (./bu14.aux)
 \openout7 = `bu14.aux'.
@@ -2784,7 +3013,11 @@ LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 ) (./bu16.aux)
 No file bu.aux.
+<<<<<<< HEAD
 [57
+=======
+[62
+>>>>>>> dbf4a9ca39b534c274b4dd662abda3ff259fb3da
 
 ]) (./perspectives/perspectives.tex
 
@@ -2800,7 +3033,11 @@ file (type png)
 Package pdftex.def Info: assets/Society_for_Industrial_and_Applied_Mathematics_
 (logo).png  used on input line 4.
 (pdftex.def)             Requested size: 43.69925pt x 11.72418pt.
+<<<<<<< HEAD
 [58
+=======
+[63
+>>>>>>> dbf4a9ca39b534c274b4dd662abda3ff259fb3da
 
 ])
 \tf@nav=\write11
@@ -2828,10 +3065,17 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  60891 strings out of 492623
  1454567 string characters out of 6129552
  1994648 words of memory out of 5000000
  63516 multiletter control sequences out of 15000+600000
+=======
+ 60946 strings out of 492623
+ 1456348 string characters out of 6129552
+ 1994648 words of memory out of 5000000
+ 63546 multiletter control sequences out of 15000+600000
+>>>>>>> dbf4a9ca39b534c274b4dd662abda3ff259fb3da
  661930 words of font info for 121 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  76i,16n,150p,1289b,1047s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2843,6 +3087,7 @@ ve/2019/texmf-dist/fonts/enc/dvips/roboto/rbto_ocbbsb.enc}</usr/local/texlive/2
 019/texmf-dist/fonts/type1/google/roboto/Roboto-Regular.pfb></usr/local/texlive
 /2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/
 2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2
+<<<<<<< HEAD
 019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/201
 9/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2019/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/t
@@ -2860,4 +3105,27 @@ PDF statistics:
  414 compressed objects within 5 object streams
  128 named destinations out of 1000 (max. 500000)
  373 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/20
+19/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2019
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2019/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2019/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2019/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2019/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2019/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf-dist
+/fonts/type1/public/esint-type1/esint10.pfb></usr/local/texlive/2019/texmf-dist
+/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2019/texmf-
+dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/local/texlive/2019/texmf-dist/fon
+ts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type
+1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/h
+elvetic/uhvro8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/symbol/
+usyr.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/symbol/usyr.pfb>
+Output written on main.pdf (63 pages, 27553007 bytes).
+PDF statistics:
+ 701 PDF objects out of 1000 (max. 8388607)
+ 510 compressed objects within 6 object streams
+ 138 named destinations out of 1000 (max. 500000)
+ 428 words of extra memory for PDF output out of 10000 (max. 10000000)
+>>>>>>> dbf4a9ca39b534c274b4dd662abda3ff259fb3da
 
