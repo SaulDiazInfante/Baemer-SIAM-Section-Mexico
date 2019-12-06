@@ -40,26 +40,40 @@
 \headcommand {\beamer@framepages {38}{38}}
 \headcommand {\slideentry {4}{1}{15}{39/39}{}{0}}
 \headcommand {\beamer@framepages {39}{39}}
-\headcommand {\slideentry {4}{1}{16}{40/40}{}{0}}
-\headcommand {\beamer@framepages {40}{40}}
-\headcommand {\beamer@sectionpages {38}{40}}
-\headcommand {\beamer@subsectionpages {38}{40}}
-\headcommand {\sectionentry {5}{Numeric Results}{41}{Numeric Results}{0}}
-\headcommand {\slideentry {5}{1}{17}{41/41}{}{0}}
-\headcommand {\beamer@framepages {41}{41}}
-\headcommand {\beamer@sectionpages {41}{41}}
-\headcommand {\beamer@subsectionpages {41}{41}}
-\headcommand {\sectionentry {6}{Stochastic extension}{42}{Stochastic extension}{0}}
-\headcommand {\beamer@sectionpages {42}{41}}
-\headcommand {\beamer@subsectionpages {42}{41}}
-\headcommand {\sectionentry {7}{Weak Formulation of the OC}{42}{Weak Formulation of the OC}{0}}
-\headcommand {\beamer@sectionpages {42}{41}}
-\headcommand {\beamer@subsectionpages {42}{41}}
-\headcommand {\sectionentry {8}{Perspectives}{42}{Perspectives}{0}}
-\headcommand {\slideentry {8}{1}{18}{42/42}{}{0}}
+\headcommand {\slideentry {4}{1}{16}{40/41}{}{0}}
+\headcommand {\beamer@framepages {40}{41}}
+\headcommand {\slideentry {4}{1}{17}{42/42}{}{0}}
 \headcommand {\beamer@framepages {42}{42}}
-\headcommand {\beamer@partpages {1}{42}}
-\headcommand {\beamer@subsectionpages {42}{42}}
-\headcommand {\beamer@sectionpages {42}{42}}
-\headcommand {\beamer@documentpages {42}}
-\headcommand {\gdef \inserttotalframenumber {18}}
+\headcommand {\beamer@sectionpages {38}{42}}
+\headcommand {\beamer@subsectionpages {38}{42}}
+\headcommand {\sectionentry {5}{Numeric Results}{43}{Numeric Results}{0}}
+\headcommand {\slideentry {5}{1}{18}{43/43}{}{0}}
+\headcommand {\beamer@framepages {43}{43}}
+\headcommand {\beamer@sectionpages {43}{43}}
+\headcommand {\beamer@subsectionpages {43}{43}}
+\headcommand {\sectionentry {6}{Stochastic extension}{44}{Stochastic extension}{0}}
+\headcommand {\slideentry {6}{1}{19}{44/44}{}{0}}
+\headcommand {\beamer@framepages {44}{44}}
+\headcommand {\slideentry {6}{1}{20}{45/50}{}{0}}
+\headcommand {\beamer@framepages {45}{50}}
+\headcommand {\slideentry {6}{1}{21}{51/51}{}{0}}
+\headcommand {\beamer@framepages {51}{51}}
+\headcommand {\slideentry {6}{1}{22}{52/55}{}{0}}
+\headcommand {\beamer@framepages {52}{55}}
+\headcommand {\slideentry {6}{1}{23}{56/56}{}{0}}
+\headcommand {\beamer@framepages {56}{56}}
+\headcommand {\slideentry {6}{1}{24}{57/57}{}{0}}
+\headcommand {\beamer@framepages {57}{57}}
+\headcommand {\beamer@sectionpages {44}{57}}
+\headcommand {\beamer@subsectionpages {44}{57}}
+\headcommand {\sectionentry {7}{Weak Formulation of the OC}{58}{Weak Formulation of the OC}{0}}
+\headcommand {\beamer@sectionpages {58}{57}}
+\headcommand {\beamer@subsectionpages {58}{57}}
+\headcommand {\sectionentry {8}{Perspectives}{58}{Perspectives}{0}}
+\headcommand {\slideentry {8}{1}{25}{58/58}{}{0}}
+\headcommand {\beamer@framepages {58}{58}}
+\headcommand {\beamer@partpages {1}{58}}
+\headcommand {\beamer@subsectionpages {58}{58}}
+\headcommand {\beamer@sectionpages {58}{58}}
+\headcommand {\beamer@documentpages {58}}
+\headcommand {\gdef \inserttotalframenumber {25}}

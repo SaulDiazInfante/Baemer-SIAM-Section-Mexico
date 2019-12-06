@@ -73,10 +73,11 @@
             $(OC)$, then there exists a piecewise differentiable adjoint 
             variable $\lambda(t)$ s.t.
             \begin{equation*}
-                H(t,\bar{x}(t),u(t),\lambda(t))\leq 
-                H(t,\bar{x}(t),\bar{u}(t),\lambda(t))
+                H(t,\bar{x}(t), \bar{u(t)}, \lambda(t))
+                =
+                \max_{u \in U} H(t, x(t), u(t), \lambda(t)),
+                \qquad \forall t \in [0, T]
             \end{equation*}
-            $\forall$ $u$ at $t$,
 %
             \begin{align*}
                     \lambda'(t) &= -\frac{\partial 
@@ -86,7 +87,7 @@
         \end{graybox}
     \end{textblock*}
     \begin{textblock*}{75mm}(5mm,65mm)
-        \begin{yellowbox}{}
+        \begin{yellowbox}{Hamiltonian}
             \begin{equation*}
                 H=g(t,x(t),u(t))+\langle \lambda(t),f(t,x(t),u(t))\rangle,
             \end{equation*}
@@ -96,102 +97,158 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[plain]
-    \frametitle{Example}
-    \begin{textblock*}{70mm}(1mm,10mm)
+\frametitle{Example}
+    \only<1,2>
+    {
+        \begin{textblock*}{70mm}(1mm,10mm)
+            \begin{greenbox}{}
+                \begin{align*}
+                    \frac{dS_p}{dt} &=
+                    -\beta_p S_p I_v +(\textcolor{capri}{r 
+                    +u_1})L_p + 
+                    (\textcolor{capri}{r + u_2}) I_p,
+                    \\
+                    \frac{dL_p}{dt} &=
+                    \beta_p S_p I_v -b L_p 
+                    -(\textcolor{capri}{r + u_1})L_p,
+                    \\
+                    \frac{dI_p}{dt} &= 
+                    b L_p - (\textcolor{capri}{r + u_2}) I_p,
+                    \\
+                    \frac{dS_v}{dt} &=
+                    -\beta_v S_v I_p 
+                    - (\textcolor{cadmiumorange}{\gamma+u_3}) 
+                    S_v 
+                        +(1-\theta)\mu,
+                    \\
+                    \frac{dI_v}{dt} &=
+                    \beta_v S_v I_p 
+                    -(\textcolor{cadmiumorange}{\gamma+u_3}) 
+                    I_v 
+                    +\theta\mu,
+                \end{align*}
+            \end{greenbox}
+        \end{textblock*}
+    }
+    \only<2>{
+        \begin{textblock*}{55mm}(72mm,10mm)
+            \begin{greenbox}{}
+                \begin{align*}
+                    H
+                            &=A_1I_v+A_2L_p+A_3I_v
+                        \\
+                        &+\sum_{i=1}^{3}c_iu_i^2
+                        \\
+                            &
+                        +\textcolor{colComments}{\lambda_1}(-\beta_p
+                         S_p I_v 
+                        +(r +u_1)L_p\\
+                        &+ (r + u_2) I_p)
+                        \\
+                        &+\textcolor{colComments}{\lambda_2}(\beta_p
+                         S_p I_v -b 
+                        L_p
+                        \\
+                        &-(r + u_1)L_p)\\
+                        &+\textcolor{colComments}{\lambda_3}(b
+                         L_p - (r + u_2) 
+                        I_p
+                        )\\
+                        &+\textcolor{colComments}{\lambda_4}(-\beta_v
+                         S_v I_p - 
+                        (\gamma+u_3) S_v\\ &+(1-\theta)\mu)
+                        \\
+                        &+\textcolor{colComments}{\lambda_5}(\beta_v
+                         S_v I_p 
+                        -(\gamma+u_3) I_v
+                        \\
+                        & +\theta\mu).
+                \end{align*}
+            \end{greenbox}
+        \end{textblock*}
+    }
+\end{frame}%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[plain]
+    \begin{textblock*}{80mm}(5mm,2mm)
         \begin{greenbox}{}
             \begin{align*}
-                \frac{dS_p}{dt} &=
-                    -\beta_p S_p I_v +(\textcolor{capri}{r +u_1})L_p + 
-                    (\textcolor{capri}{r + u_2}) I_p,
+                \frac{d\lambda_1}{dt} 
+                    &=
+                    \beta_p (\lambda_1-\lambda_2),
                 \\
-                \frac{dL_p}{dt} &=
-                    \beta_p S_p I_v -b L_p -(\textcolor{capri}{r + u_1})L_p,
+                \frac{d\lambda_2}{dt} 
+                    &=-A_2+(r+u_1)(\lambda_2-\lambda_1)
+                    +b (\lambda_2-\lambda_3),
                 \\
-                \frac{dI_p}{dt} &= 
-                    b L_p - (\textcolor{capri}{r + u_2}) I_p,
+                \frac{d\lambda_3}{dt} 
+                    &=
+                    - A_1 + (r+u_2)(\lambda_3-\lambda_1)
+                     + \beta_v S_v (\lambda_4-\lambda_5),
                 \\
-                \frac{dS_v}{dt} &=
-                    -\beta_v S_v I_p - 
-                        (\textcolor{cadmiumorange}{\gamma+u_3}) S_v 
-                        +(1-\theta)\mu,
+                \frac{d\lambda_4}{dt} 
+                    &=
+                    \beta_v I_p (\lambda_4-\lambda_5)
+                    + (\gamma+u_3) \lambda_4,
                 \\
-                \frac{dI_v}{dt} &=
-                    \beta_v S_v I_p 
-                    -(\textcolor{cadmiumorange}{\gamma+u_3}) I_v 
-                    +\theta\mu,
+                \frac{d\lambda_5}{dt} 
+                    &=
+                    -A_3+\beta_p  S_p(\lambda_1-\lambda_2)
+                    + (\gamma+u_3)\lambda_5,
             \end{align*}
         \end{greenbox}
     \end{textblock*}
-%%
-    \begin{textblock*}{55mm}(72mm,10mm)
-        \begin{greenbox}{}
+%
+    \begin{textblock*}{32mm}(10mm,70mm)
+        \begin{yellowbox}{}
+            $\frac{\partial H}{\partial u}(\bar{u})=0 
+            \Rightarrow$
+            \tcblower
+            $
+                u_i \in 
+                [0, u_i^{max}]
+            $
+        \end{yellowbox}
+    \end{textblock*}
+%
+    \begin{textblock*}{70mm}(50mm,52mm)
+        \begin{yellowbox}{optimal control policies}
             \begin{align*}
-                H
-                    &= A_1 I_v + A_2 L_p + A_3 I_v
-                    \\
-                & + \sum_{i=1}^{3}c_iu_i^2
-                    \\
-                & + \lambda_1 ( -\beta_p S_p I_v + (r +u_1) L_p
-                    \\
-                & + (r + u_2) I_p)
+                \bar{u}_1
+                    &=
+                    \min
+                        \left(
+                            \max
+                                \left(
+                                    0,
+                                    \frac{L_p(\lambda_2-\lambda_1)}{2c_1}
+                                \right),
+                            u_1^{max}
+                        \right)
                 \\
-                & + \lambda_2(\beta_p S_p I_v -b L_p
-                \\
-                &-(r + u_1)L_p)
-                \\
-                & + \lambda_3(b L_p - (r + u_2) I_p)
-                \\
-                & +\lambda_4(-\beta_v S_v I_p - (\gamma+u_3) S_v
-                \\
-                & + (1-\theta) \mu)
-                \\
-                & +
-                \lambda_5(\beta_v S_v I_p -(\gamma+u_3) I_v
-                \\
-                & +\theta\mu).
+                \bar{u}_2
+                    &=
+                    \min
+                        \left(
+                            \max
+                                \left(
+                                    0,\frac{I_p(\lambda_3-\lambda_1)}{2c_2}
+                                \right),
+                                u_2^{max}
+                        \right)
+                        \\
+                \bar{u}_3
+                    &=
+                    \min
+                        \left(
+                            \max
+                                \left(
+                                    0,\frac{S_v\lambda_4+I_v\lambda_5}{2c_3}
+                                \right), 
+                                u^{max}_3
+                        \right)
             \end{align*}
-        \end{greenbox}
+        \end{yellowbox}
     \end{textblock*}
 \end{frame}
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-%\begin{frame}[plain]
-%	\begin{textblock*}{80mm}(25mm,3mm)
-%		\begin{greenbox}{}
-%			\begin{align*}
-%			\frac{d\lambda_1}{dt} &=\beta_p (\lambda_1-\lambda_2),\\
-%			\frac{d\lambda_2}{dt} 
-%			&=-A_2+(r+u_1)(\lambda_2-\lambda_1)+b(\lambda_2-\lambda_3),\\
-%			\frac{d\lambda_3}{dt} 
-%			
-%&-A_1+(r+u_2)(\lambda_3-\lambda_1)+\beta_vS_v(\lambda_4-\lambda_5),\\
-%			\frac{d\lambda_4}{dt} &=\beta_v 
-%			I_p(\lambda_4-\lambda_5)+(\gamma+u_3)\lambda_4,\\
-%			\frac{d\lambda_5}{dt} &=-A_3+\beta_p 
-%			S_p(\lambda_1-\lambda_2)+(\gamma+u_3)\lambda_5,				
-%			\end{align*}
-%		\end{greenbox}	
-%	\end{textblock*}
-%
-%	\begin{textblock*}{32mm}(10mm,72mm)
-%		\begin{yellowbox}{}
-%			$\frac{\partial H}{\partial u}(\bar{u})=0 \Rightarrow$
-%		\end{yellowbox}
-%	\end{textblock*}
-%
-%	\begin{textblock*}{70mm}(50mm,57mm)
-%		\begin{yellowbox}{}
-%			\begin{align*}
-%				
-%\bar{u}_1&=\min\left(\max\left(0,\frac{L_p(\lambda_2-\lambda_1)}{2c_1}\right),u_1^{max}\right)\\
-%				
-%\bar{u}_2&=\min\left(\max\left(0,\frac{I_p(\lambda_3-\lambda_1)}{2c_2}\right),u_2^{max}\right)\\
-%				
-%\bar{u}_3&=\min\left(\max\left(0,\frac{S_v\lambda_4+I_v\lambda_5}{2c_3}\right),u^{max}_i\right)
-%		\end{align*}
-%		\end{yellowbox}
-%		
-%	\end{textblock*}
-%\end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
