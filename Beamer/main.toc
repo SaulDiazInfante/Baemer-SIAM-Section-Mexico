@@ -3,6 +3,6 @@
 \beamer@sectionintoc {3}{Existence of deterministic optimal Policies}{33}{0}{3}
 \beamer@sectionintoc {4}{Characterization of optimal policies}{38}{0}{4}
 \beamer@sectionintoc {5}{Numeric Results}{41}{0}{5}
-\beamer@sectionintoc {6}{Stochastic extension}{47}{0}{6}
-\beamer@sectionintoc {7}{Weak Formulation of the OC}{47}{0}{7}
-\beamer@sectionintoc {8}{Perspectives}{47}{0}{8}
+\beamer@sectionintoc {6}{Stochastic extension}{42}{0}{6}
+\beamer@sectionintoc {7}{Weak Formulation of the OC}{42}{0}{7}
+\beamer@sectionintoc {8}{Perspectives}{42}{0}{8}

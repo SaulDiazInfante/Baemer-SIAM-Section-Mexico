@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.13)  3 DEC 2019 22:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.13)  3 DEC 2019 22:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1812,7 +1812,10 @@ Library (tcolorbox): 'tcbbreakable.code.tex' version '4.20'
 \tcb@testbox=\box127
 \tcb@totalupperbox=\box128
 \tcb@totallowerbox=\box129
-)) (./main.aux)
+)) (./main.aux
+<Reading QR code for "https://github.com/SaulDiazInfante/Baemer-SIAM-Section-Me
+xico" at level 4-M from aux file.>
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
@@ -2096,7 +2099,7 @@ LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 (./Introduction/introduction.tex
-<assets/healty_leaf.jpg, id=62, 414.04688pt x 310.15875pt>
+<assets/healty_leaf.jpg, id=78, 414.04688pt x 310.15875pt>
 File: assets/healty_leaf.jpg Graphic file (type jpg)
 <use assets/healty_leaf.jpg>
 Package pdftex.def Info: assets/healty_leaf.jpg  used on input line 8.
@@ -2109,7 +2112,7 @@ LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' in size <9> not available
 e 8.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
 (Font)              scaled to size 9.0pt on input line 8.
-<assets/Society_for_Industrial_and_Applied_Mathematics_(logo).png, id=63, 311.1
+<assets/Society_for_Industrial_and_Applied_Mathematics_(logo).png, id=79, 311.1
 2234pt x 83.47185pt>
 File: assets/Society_for_Industrial_and_Applied_Mathematics_(logo).png Graphic 
 file (type png)
@@ -2123,7 +2126,7 @@ LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
 
  <./assets/Society_for_Industrial_and_Applied_Mathematics_(logo).png> <./assets
 /healty_leaf.jpg>]
-<assets/healty_tomato_leaf.jpg, id=74, 770.88pt x 578.16pt>
+<assets/healty_tomato_leaf.jpg, id=90, 770.88pt x 578.16pt>
 File: assets/healty_tomato_leaf.jpg Graphic file (type jpg)
 <use assets/healty_tomato_leaf.jpg>
 Package pdftex.def Info: assets/healty_tomato_leaf.jpg  used on input line 8.
@@ -2137,7 +2140,7 @@ Package pdftex.def Info: assets/Society_for_Industrial_and_Applied_Mathematics_
  [3
 
  <./assets/healty_tomato_leaf.jpg>]
-<assets/TYLCV_leaflet_cropped.png, id=82, 1806.75pt x 2898.83pt>
+<assets/TYLCV_leaflet_cropped.png, id=98, 1806.75pt x 2898.83pt>
 File: assets/TYLCV_leaflet_cropped.png Graphic file (type png)
 <use assets/TYLCV_leaflet_cropped.png>
 Package pdftex.def Info: assets/TYLCV_leaflet_cropped.png  used on input line 4
@@ -2208,7 +2211,7 @@ Package pdftex.def Info: assets/Society_for_Industrial_and_Applied_Mathematics_
  [8
 
 ]
-<assets/Silverleaf_whitfly_large_rotated.png, id=121, 2969.0925pt x 1923.185pt>
+<assets/Silverleaf_whitfly_large_rotated.png, id=137, 2969.0925pt x 1923.185pt>
 
 File: assets/Silverleaf_whitfly_large_rotated.png Graphic file (type png)
 <use assets/Silverleaf_whitfly_large_rotated.png>
@@ -2326,9 +2329,9 @@ No file bu5.bbl.
 No file bu.aux.
 [16
 
-]
-No file bu6.aux.
+] (./bu6.aux)
 \openout7 = `bu6.aux'.
+
 
 
 LaTeX Warning: Citation `Shun-xiang2001' undefined on input line 121.
@@ -2356,17 +2359,28 @@ No file bu7.bbl.
 No file bu.aux.
 [18
 
-])
-No file main.toc.
+]) (./main.toc
+LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
+(Font)              scaled to size 8.0pt on input line 1.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/bx/n' in size <8> not available
+(Font)              Font shape `T1/Roboto-LF/b/n' tried instead on input line 1
+.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' in size <8> not available
+(Font)              Font shape `T1/Roboto-LF/bold/n' tried instead on input lin
+e 1.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
+(Font)              scaled to size 8.0pt on input line 1.
+)
 File: assets/Society_for_Industrial_and_Applied_Mathematics_(logo).png Graphic 
 file (type png)
 <use assets/Society_for_Industrial_and_Applied_Mathematics_(logo).png>
 Package pdftex.def Info: assets/Society_for_Industrial_and_Applied_Mathematics_
 (logo).png  used on input line 91.
 (pdftex.def)             Requested size: 43.69925pt x 11.72418pt.
-[19
+ [19
 
-] (./deterministic_controlled_model/uncontrolled_dynamics.tex (./bu8.aux)
+]
+(./deterministic_controlled_model/uncontrolled_dynamics.tex (./bu8.aux)
 \openout7 = `bu8.aux'.
 
 
@@ -2392,7 +2406,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: /usr/local/texlive/2019/bin/x86_64-linux/pdflatex (file ./deter
 ministic_model_diagram-eps-converted-to.pdf): PDF inclusion: found PDF version 
 <1.7>, but at most version <1.5> allowed
-<./deterministic_model_diagram-eps-converted-to.pdf, id=189, 517.935pt x 570.13
+<./deterministic_model_diagram-eps-converted-to.pdf, id=218, 517.935pt x 570.13
 pt>
 File: ./deterministic_model_diagram-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -2552,7 +2566,7 @@ Overfull \hbox (6.52647pt too wide) detected at line 113
 []
  []
 
-<assets/data_dynamics_jegger.png, id=224, 594.0594pt x 361.35pt>
+<assets/data_dynamics_jegger.png, id=252, 594.0594pt x 361.35pt>
 File: assets/data_dynamics_jegger.png Graphic file (type png)
 <use assets/data_dynamics_jegger.png>
 Package pdftex.def Info: assets/data_dynamics_jegger.png  used on input line 11
@@ -2693,244 +2707,34 @@ Package pdftex.def Info: assets/Society_for_Industrial_and_Applied_Mathematics_
  [40
 
 ]) (./numerical_results/numerical_results.tex
-
-LaTeX Warning: File `numerical_results/fbs_algorithm.pdf' not found on input li
-ne 3.
-
-
-! Package pdftex.def Error: File `numerical_results/fbs_algorithm.pdf' not foun
-d: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 	\end{frame}
-                
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<assets/fbs_algorithm.pdf, id=346, 426.82661pt x 274.48146pt>
+File: assets/fbs_algorithm.pdf Graphic file (type pdf)
+<use assets/fbs_algorithm.pdf>
+Package pdftex.def Info: assets/fbs_algorithm.pdf  used on input line 3.
+(pdftex.def)             Requested size: 318.67097pt x 204.93498pt.
 File: assets/Society_for_Industrial_and_Applied_Mathematics_(logo).png Graphic 
 file (type png)
 <use assets/Society_for_Industrial_and_Applied_Mathematics_(logo).png>
 Package pdftex.def Info: assets/Society_for_Industrial_and_Applied_Mathematics_
 (logo).png  used on input line 3.
 (pdftex.def)             Requested size: 43.69925pt x 11.72418pt.
+ [41
 
-Overfull \vbox (94.05034pt too high) detected at line 3
- []
-
-[41
-
-]
-
-LaTeX Warning: File `Feathergraphics/only_infected_replanting.eps' not found on
- input line 12.
-
-Package epstopdf Info: Source file: <Feathergraphics/only_infected_replanting.e
-ps>
-(epstopdf)             Output file: <./only_infected_replanting-eps-converted-t
-o.pdf>
-(epstopdf)             Command: <repstopdf --outfile=./only_infected_replanting
--eps-converted-to.pdf Feathergraphics/only_infected_replanting.eps>
-(epstopdf)             \includegraphics on input line 12.
-Package epstopdf Info: Output file is already uptodate.
-
-! Package pdftex.def Error: File `./only_infected_replanting-eps-converted-to.p
-df' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.12 	\end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: assets/Society_for_Industrial_and_Applied_Mathematics_(logo).png Graphic 
-file (type png)
-<use assets/Society_for_Industrial_and_Applied_Mathematics_(logo).png>
-Package pdftex.def Info: assets/Society_for_Industrial_and_Applied_Mathematics_
-(logo).png  used on input line 12.
-(pdftex.def)             Requested size: 43.69925pt x 11.72418pt.
-[42
-
-]
-
-LaTeX Warning: File `Feathergraphics/one_control_simulation_1.eps' not found on
- input line 20.
-
-Package epstopdf Info: Source file: <Feathergraphics/one_control_simulation_1.e
-ps>
-(epstopdf)             Output file: <./one_control_simulation_1-eps-converted-t
-o.pdf>
-(epstopdf)             Command: <repstopdf --outfile=./one_control_simulation_1
--eps-converted-to.pdf Feathergraphics/one_control_simulation_1.eps>
-(epstopdf)             \includegraphics on input line 20.
-Package epstopdf Info: Output file is already uptodate.
-
-! Package pdftex.def Error: File `./one_control_simulation_1-eps-converted-to.p
-df' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.20 \end{frame}
-                
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: assets/Society_for_Industrial_and_Applied_Mathematics_(logo).png Graphic 
-file (type png)
-<use assets/Society_for_Industrial_and_Applied_Mathematics_(logo).png>
-Package pdftex.def Info: assets/Society_for_Industrial_and_Applied_Mathematics_
-(logo).png  used on input line 20.
-(pdftex.def)             Requested size: 43.69925pt x 11.72418pt.
-[43
-
-]
-
-LaTeX Warning: File `assets/two_control_simulation_1.eps' not found on input li
-ne 30.
-
-Package epstopdf Info: Source file: <assets/two_control_simulation_1.eps>
-(epstopdf)             Output file: <./two_control_simulation_1-eps-converted-t
-o.pdf>
-(epstopdf)             Command: <repstopdf --outfile=./two_control_simulation_1
--eps-converted-to.pdf assets/two_control_simulation_1.eps>
-(epstopdf)             \includegraphics on input line 30.
-Package epstopdf Info: Output file is already uptodate.
-
-! Package pdftex.def Error: File `./two_control_simulation_1-eps-converted-to.p
-df' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.30 	\end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: assets/Society_for_Industrial_and_Applied_Mathematics_(logo).png Graphic 
-file (type png)
-<use assets/Society_for_Industrial_and_Applied_Mathematics_(logo).png>
-Package pdftex.def Info: assets/Society_for_Industrial_and_Applied_Mathematics_
-(logo).png  used on input line 30.
-(pdftex.def)             Requested size: 43.69925pt x 11.72418pt.
-[44
-
-]
-
-LaTeX Warning: File `assets/three_controls_simulation_1.eps' not found on input
- line 38.
-
-Package epstopdf Info: Source file: <assets/three_controls_simulation_1.eps>
-(epstopdf)             Output file: <./three_controls_simulation_1-eps-converte
-d-to.pdf>
-(epstopdf)             Command: <repstopdf --outfile=./three_controls_simulatio
-n_1-eps-converted-to.pdf assets/three_controls_simulation_1.eps>
-(epstopdf)             \includegraphics on input line 38.
-Package epstopdf Info: Output file is already uptodate.
-
-! Package pdftex.def Error: File `./three_controls_simulation_1-eps-converted-t
-o.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.38 	\end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: assets/Society_for_Industrial_and_Applied_Mathematics_(logo).png Graphic 
-file (type png)
-<use assets/Society_for_Industrial_and_Applied_Mathematics_(logo).png>
-Package pdftex.def Info: assets/Society_for_Industrial_and_Applied_Mathematics_
-(logo).png  used on input line 38.
-(pdftex.def)             Requested size: 43.69925pt x 11.72418pt.
-[45
-
-]
-
-LaTeX Warning: File `Feathergraphics/Cost_Comparation_version_2.eps' not found 
-on input line 55.
-
-Package epstopdf Info: Source file: <Feathergraphics/Cost_Comparation_version_2
-.eps>
-(epstopdf)             Output file: <./Cost_Comparation_version_2-eps-converted
--to.pdf>
-(epstopdf)             Command: <repstopdf --outfile=./Cost_Comparation_version
-_2-eps-converted-to.pdf Feathergraphics/Cost_Comparation_version_2.eps>
-(epstopdf)             \includegraphics on input line 55.
-Package epstopdf Info: Output file is already uptodate.
-
-! Package pdftex.def Error: File `./Cost_Comparation_version_2-eps-converted-to
-.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.55 \end{frame}
-                
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: assets/Society_for_Industrial_and_Applied_Mathematics_(logo).png Graphic 
-file (type png)
-<use assets/Society_for_Industrial_and_Applied_Mathematics_(logo).png>
-Package pdftex.def Info: assets/Society_for_Industrial_and_Applied_Mathematics_
-(logo).png  used on input line 55.
-(pdftex.def)             Requested size: 43.69925pt x 11.72418pt.
-
-Overfull \vbox (100.05034pt too high) detected at line 55
- []
-
-[46
-
-]) (./perspectives/perspectives.tex
+ <./assets/fbs_algorithm.pdf>]) (./perspectives/perspectives.tex
 
 
 <QR code requested for "https://github.com/SaulDiazInfante/Baemer-SIAM-Section-
 Mexico" in version 0-M.>
 
-<Calculating QR code for "https://github.com/SaulDiazInfante/Baemer-SIAM-Sectio
-n-Mexico" in version 4-M.>
-<Splitting off block 1> <Splitting off block 2> <Making error block 1>
-<Making error block 2> <Interleaving datablocks of length 32\ and 33:  1, 2,
-3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23,
-24, 25, 26, 27, 28, 29, 30, 31, 32, .>
-<Interleaving errorblocks of length 18:  1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11,
-12, 13, 14, 15, 16, 17, 18, .><Interleaving complete.> <Writing data...
-done.>
-<Applying Mask 0... done. Calculating penalty... penalty is 1400>
-<Applying Mask 1... done. Calculating penalty... penalty is 1376>
-<Applying Mask 2... done. Calculating penalty... penalty is 1403>
-<Applying Mask 3... done. Calculating penalty... penalty is 1292>
-<Applying Mask 4... done. Calculating penalty... penalty is 1414>
-<Applying Mask 5... done. Calculating penalty... penalty is 1421>
-<Applying Mask 6... done. Calculating penalty... penalty is 1469>
-<Applying Mask 7... done. Calculating penalty... penalty is 1308>
-<Selected Mask 3>
-<Encoding and writing format string... done.>
-<Encoding and writing version information... done.>
-<Saving QR code to memory... done.>
-<Writing QR code to aux file... done.>
-<Printing matrix... done.>
-
+<Copying the QR code for "https://github.com/SaulDiazInfante/Baemer-SIAM-Sectio
+n-Mexico" in version 4-M as previously calculated.>
 File: assets/Society_for_Industrial_and_Applied_Mathematics_(logo).png Graphic 
 file (type png)
 <use assets/Society_for_Industrial_and_Applied_Mathematics_(logo).png>
 Package pdftex.def Info: assets/Society_for_Industrial_and_Applied_Mathematics_
 (logo).png  used on input line 4.
 (pdftex.def)             Requested size: 43.69925pt x 11.72418pt.
-[47
+[42
 
 ])
 \tf@nav=\write11
@@ -2950,27 +2754,21 @@ xico" at level 4-M from aux file.>
 )
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 105.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 105.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 779F97C5149AD4DE110C47895203641B;474.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: C1DED5FB58860C60C0FD95608A4AD95A;261
-(rerunfilecheck)             After:  779F97C5149AD4DE110C47895203641B;474.
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 63972 strings out of 492623
- 1503440 string characters out of 6129537
- 1992648 words of memory out of 5000000
- 66674 multiletter control sequences out of 15000+600000
- 646517 words of font info for 116 fonts, out of 8000000 for 9000
+ 60707 strings out of 492623
+ 1451265 string characters out of 6129537
+ 1994648 words of memory out of 5000000
+ 63421 multiletter control sequences out of 15000+600000
+ 656238 words of font info for 118 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,16n,257p,1287b,1890s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 76i,16n,150p,1289b,883s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
 exlive/2019/texmf-dist/fonts/enc/dvips/roboto/rbto_ocbbsb.enc}{/usr/local/texli
 ve/2019/texmf-dist/fonts/enc/dvips/roboto/rbto_hsw3yt.enc}</usr/local/texlive/2
@@ -2984,15 +2782,15 @@ exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/te
 xmf-dist/fonts/type1/public/esint-type1/esint10.pfb></usr/local/texlive/2019/te
 xmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/201
 9/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/local/texlive/2019/texmf-
-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2019/texmf-dist/fon
-ts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type
-1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/h
-elvetic/uhvro8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/symbol/
-usyr.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/symbol/usyr.pfb>
-Output written on main.pdf (47 pages, 27112813 bytes).
+dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2019/texmf-dist/fo
+nts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/typ
+e1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw
+/symbol/usyr.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/symbol/usy
+r.pfb>
+Output written on main.pdf (42 pages, 27396978 bytes).
 PDF statistics:
- 458 PDF objects out of 1000 (max. 8388607)
- 334 compressed objects within 4 object streams
- 103 named destinations out of 1000 (max. 500000)
- 330 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 443 PDF objects out of 1000 (max. 8388607)
+ 328 compressed objects within 4 object streams
+ 93 named destinations out of 1000 (max. 500000)
+ 337 words of extra memory for PDF output out of 10000 (max. 10000000)
 
