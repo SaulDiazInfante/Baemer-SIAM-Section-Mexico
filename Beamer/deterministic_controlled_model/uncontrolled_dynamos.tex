@@ -1,0 +1,88 @@
+\begin{frame}{}
+    \begin{textblock*}{55mm}(2mm, 5mm)
+        \begin{bluebox}{}
+            \begin{align*}
+                \frac{dS_p}{dt} &=
+                    -\beta_p S_p I_v + 
+                    \textcolor<2->{azure(colorwheel)}{\textbf<2>{r}}
+                    (L_p + I_p)
+                    \\
+                \frac{dL_p}{dt} &=
+                    \beta_p S_p I_v -b L_p -
+                    \textcolor<2->{azure(colorwheel)}{\textbf<2>{r}}
+                    L_p
+                    \\
+                \frac{dI_p}{dt} &=
+                     b L_p -
+                    \textcolor<2->{azure(colorwheel)}{\textbf<2>{r}}
+                    I_p
+                    \\
+                \frac{dS_v}{dt} &=
+                    -\beta_v S_v I_p - 
+                    \textcolor<2->{cadmiumorange}{\gamma}
+                    S_v + (1-\theta)\mu
+                    \\
+                \frac{dI_v}{dt} &=
+                    \beta_v S_v I_p - 
+                    \textcolor<2->{cadmiumorange}{\gamma} I_v 
+                    + \theta\mu
+            \end{align*}
+        \end{bluebox}
+    \end{textblock*}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \begin{textblock*}{45mm}(3mm, 55mm)
+        \begin{empheq}[box=\shadowbox]{align*}
+            R_0 &=
+                \sqrt{\frac{\beta_v\mu 
+                b\beta_p}{r^2(r+b)\gamma}}
+            \\
+            DFE &= 
+                (N_p, 0, 0, 0,  \mu / \gamma)^{\top}
+            \\
+            EE &=
+                (S_p ^ *, L_p ^ *, I_p ^ *, S_v ^ *, I_v ^ * ) ^ {\top}
+        \end{empheq}
+    \end{textblock*}
+    \begin{textblock*}{60mm}(65 mm, 5mm)
+        \begin{tabular}{@{}lll@{}} 
+            \toprule
+            Par. & Value & Descrip. 
+            \\ 
+            \midrule
+                $\beta_p$ 
+                & 0.1 
+                & latent rate  
+            \\ 
+                $r$ 
+                & 0.01 
+                & remove rate 
+            \\
+                $1/b$ 
+                & 0.075 
+                & time of latency
+            \\
+                $\gamma$ 
+                & 0.06 
+                & vector die or depart rate 
+            \\
+                $\mu$ 
+                & 0.3 
+                & immigration rate 
+            \\
+                $\theta$ 
+                & 0.2 
+                & infected vectors 
+                    arrival 
+                \\
+                $\beta_v$ 
+                & 0.003 
+                & vector infected 
+                rate
+            \\
+            \bottomrule
+        \end{tabular}
+    \end{textblock*}
+    \begin{textblock*}{65mm}(60mm, 50mm)
+        \includegraphics[width=\linewidth]{assets/data_dynamics_jegger}
+    \end{textblock*}
+\end{frame}

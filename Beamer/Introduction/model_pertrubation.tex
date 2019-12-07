@@ -1,0 +1,242 @@
+\begin{frame}[plain]%{Why SDE?}{UQ}
+        \begin{empheq}[box={\Garybox[UQ]}]{equation*}
+            ODE + noise = Better \  Model
+        \end{empheq}
+%
+   \begin{overlayarea}{\textwidth}{.8\textheight}
+        \begin{columns}
+            \column{.5\textwidth}
+            \only<2-3>{
+                \begin{exampleblock}{Population growth}
+                    $$
+                        \frac{dN}{dt}=a(t)N(t) \qquad N_0=N(0)=cte.
+                    $$
+                \end{exampleblock}
+            }
+            \only<4-6>{
+            \begin{exampleblock}{Electric Circuits}
+                \begin{align*}
+                   &L\cdot Q''(t)+
+                    R\cdot Q'(t)+
+                    \frac{1}{C}\cdot Q(t)
+                        =F(t)
+                    \\
+                   &Q(0)=Q_0\\
+                   &Q'(0)=I_0
+                \end{align*}
+            \end{exampleblock}
+        }
+        \column{.58\textwidth}
+        \only<3>{
+            \begin{empheq}[box=\shadowbox*]{equation*}
+                a(t)=r(t)+"noise"
+            \end{empheq}
+        }
+        \only<5-6>{
+            %\includegraphics[width=\textwidth]{./images/CircuitRLC.png}
+            \begin{circuitikz}[american voltages]
+                \draw (0,0)
+                to[sV,v=$F(t)$] (0,2) % The voltage source
+                to[R=$R$, i^>=$i(t)$] (2,2) % The resistor
+                to[L=$L$] (4,2)
+                to[C=$C$] (4,0)--(0,0) ;
+            \end{circuitikz}
+        }
+        \only<6>{
+            \begin{textblock*}{55 mm}(75mm,60mm) 
+                \begin{empheq}[box=\shadowbox*]{equation*}
+                    F(t)=G(t)+"noise"
+                \end{empheq}
+            \end{textblock*}
+        }
+        \end{columns}
+    \end{overlayarea}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+    \frametitle{To fix ideas}
+    \begin{empheq}[box=\Garybox]{align*}
+        dN(t) = aN(t)dt
+    \end{empheq}
+    \begin{overlayarea}{\textwidth}{.3\textheight}
+        \begin{columns}
+            \column{.5\textwidth}
+                \only<2->{
+                    \begin{block}{Perturb in $[t, t+dt)$}
+                        \only<3->{
+                            $$
+                              a dt
+                              \rightsquigarrow
+                              a dt + \sigma dB(t)
+                            $$
+                        }
+                    \end{block}
+               }
+            \column{.5\textwidth}
+        \only<4->{
+            \begin{exampleblock}{Get a SDE}
+              $$
+               dN(t) = aN(t)dt + \sigma N(t) dB(t)
+              $$
+            \end{exampleblock}
+        }
+        \end{columns}
+    \end{overlayarea}
+    \begin{overlayarea}{\textwidth}{.7\textheight}
+        \centering
+            \resizebox{0.45\textwidth}{!}{%
+            \only<5>{
+                \begin{tikzpicture}
+                    \begin{axis}[%
+                     line width=1.0pt,
+                     mark size=1.0pt,
+                     x label style={at={
+                        (axis description cs:0.5,-0.1)
+                        },anchor=north},
+                     y label style={at={
+                        (axis description cs:0.0,.5)},anchor=south
+                     },
+                     xlabel={$t$},
+                     ylabel={$N(t)$}
+                    ]%
+                         \addplot[color=blue]%
+                         table [%
+                           x index = {0},
+                           y index = {1} %
+                       ]{\mydata};
+                       \addplot[domain=0:5, samples=100]{1.5*exp(x)};
+                    \end{axis}
+                \end{tikzpicture}
+         }
+        }
+    \end{overlayarea}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[plain,noframenumbering]
+    \frametitle{Some Important applications}
+    \begin{columns}
+        \column{.3\textwidth}
+        \begin{overlayarea}{\textwidth}{.3\textheight}
+            \begin{itemize}[<+-|alert@+>] 	
+                %
+                \item
+                    Finance
+                    \item
+                    Physics
+                \item
+                    Chemistry
+                \item 
+                    Biology
+                \item
+                    Epidemiology
+            \end{itemize}
+        \end{overlayarea}
+        \column{.7\textwidth}
+        \begin{overlayarea}{\textwidth}{.5\textheight}
+            \begin{exampleblock}{
+                    
+                    \only<1>{Henston}
+                    \only<2>{Langevin}
+                    \only<3>{Brusselator}
+                    \only<4>{Lotka Volterra}
+                    \only<5>{SIR}
+                }
+                \only<1>{
+                    \begin{align*}
+                    dS_t &= \mu S_t dt + \sqrt{V_t}S_t
+                    \left(
+                    \sqrt{1- \rho^2}dW^{(1)}_t
+                    + \rho dW^{(2)}
+                    \right)\\
+                    dV_t &=
+                    \kappa (\lambda - V_t)dt +
+                    \theta \sqrt{V_t} dW^{(2)}_t
+                    \end{align*}
+                }
+                \only<2>{
+                    \begin{equation*}
+                    dX_t = -(\nabla U)(X_t)dt + \sqrt{2\epsilon}dW_t
+                    \end{equation*}
+                }
+                \only<3>{
+                    \begin{align*}
+                    dX_t =& 
+                    \left[
+                    \delta
+                    -(\alpha + 1) X_t +
+                    Y_t X_t^2
+                    \right] dt
+                    + g_1(X_t) dW_t^{(1)} \\
+                    dY_t =&
+                    \left[
+                    \alpha X_t +
+                    Y_t X_t^2
+                    \right] dt
+                    + g_2(X_t) dW_t^{(2)} \\
+                    \end{align*}
+                }
+                \only<4>{
+                    \begin{align*}
+                        dX_t &= (\lambda X_t - k X_t Y_t ) dt +\sigma X_t dW_t\\
+                        dY_t &= (k X_t Y_t -mY_t) dt
+                    \end{align*}
+                }
+                \only<5>{
+                    \begin{align*}
+                        dS_t & = (-\alpha S_t I_t - \delta S_t + \delta) dt
+                            - \beta S_t I_t dW_t
+                        \\
+                        dI_t & = (\alpha S_t I_t - (\gamma + \delta) I_t) dt
+                            + \beta S_t I_t dW_t
+                        \\
+                        dR_t & = 
+                            (\gamma I_t  - \delta R_t) dt
+                    \end{align*}
+                }
+            \end{exampleblock}
+        \end{overlayarea}
+    \end{columns}
+%
+    \only<1-4>{
+        \begin{bibunit}[apalike]
+            \nocite{Hutzenthaler2015}
+            \putbib
+        \end{bibunit}
+    }
+    \only<5>{
+    \begin{bibunit}[apalike]
+        \nocite{Tornatore2005}
+        \putbib
+    \end{bibunit}
+}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[plain]
+    \begin{textblock*}{75mm}(30mm, 10mm)
+        \begin{alertblock}{Main objective}
+            To present two of the common approaches in stochastic modeling
+            with SDEs.
+        \end{alertblock}
+    \end{textblock*}
+%
+    \begin{textblock*}{40mm}(10mm, 40mm)
+        \begin{block}{Allen's approach}
+         \begin{equation*}
+                DTMC \to CTMC \to SDE 
+         \end{equation*}
+        \end{block}
+    \end{textblock*}    
+%
+    \begin{textblock*}{40mm}(80mm, 40mm)
+        \begin{block}{Stochastic perturbation}
+        $dN(t)/dt = a N(t)$
+        \begin{align*}
+            a dt &
+                \rightsquigarrow
+            a dt + \sigma dB(t)
+            \\
+            dN(t) &= aN(t)dt + \sigma N(t) dB(t)
+        \end{align*}
+        \end{block}
+    \end{textblock*}
+\end{frame}

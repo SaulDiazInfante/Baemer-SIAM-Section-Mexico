@@ -1,0 +1,133 @@
+\begin{frame}{}
+    \begin{textblock*}{72mm}(2mm, 12mm)
+        \begin{bluebox}{}
+            \only<1-2>{
+                \begin{align*}
+                    \frac{dS_p}{dt} &=
+                        -\beta_p S_p I_v + 
+                        \textcolor{azure(colorwheel)}{\textbf{r}}
+                        (L_p + I_p)
+                        \\
+                    \frac{dL_p}{dt} &=
+                        \beta_p S_p I_v -b L_p -
+                        \textcolor{azure(colorwheel)}{\textbf{r}}
+                        L_p
+                        \\
+                    \frac{dI_p}{dt} &=
+                         b L_p -
+                        \textcolor{azure(colorwheel)}{\textbf{r}}
+                        I_p
+                        \\
+                    \frac{dS_v}{dt} &=
+                        -\beta_v S_v I_p - 
+                        \textcolor{cadmiumorange}{\gamma}
+                        S_v + (1-\theta)\mu
+                        \\
+                    \frac{dI_v}{dt} &=
+                        \beta_v S_v I_p - 
+                        \textcolor{cadmiumorange}{\gamma} I_v 
+                        + \theta\mu
+                \end{align*}
+            }
+            \only<3->{
+                \begin{align*}
+                    \frac{dS_p}{dt} &=
+                        -\beta_p S_p I_v + 
+                        \textcolor{azure(colorwheel)}{
+                            (u_1 + r) 
+                        } L_p 
+                        + 
+                        \textcolor{azure(colorwheel)}{
+                            (u_2 + r)
+                        } I_p
+                        \\
+                    \frac{dL_p}{dt} &=
+                        \beta_p S_p I_v -b L_p -
+                        \textcolor{azure(colorwheel)}{(u_1 + r)} L_p
+                        \\
+                    \frac{dI_p}{dt} &=
+                         b L_p -
+                        \textcolor{azure(colorwheel)}{(u_2 + r)} I_p
+                        \\
+                    \frac{dS_v}{dt} &=
+                        -\beta_v S_v I_p - 
+                        \textcolor{cadmiumorange}{(\gamma + u_3)}
+                        S_v + (1-\theta)\mu
+                        \\
+                    \frac{dI_v}{dt} &=
+                        \beta_v S_v I_p - 
+                        \textcolor{cadmiumorange}{(\gamma + u_3)} I_v 
+                        + \theta\mu
+                \end{align*}
+            }
+        \tcblower
+        \only<4->{
+            \begin{align*}
+                \int_{0}^T
+                    \left[
+                    A_1 I_p(t) + A_2 L_p(t) + A_3 I_v(t)
+                    + \sum_{i=1}^3
+                        c_i \frac{u_i ^ 2}{2}
+                    \right] dt
+            \end{align*}
+        }
+        \end{bluebox}
+    \end{textblock*}
+    \begin{textblock*}{45mm}(77mm, 12mm)
+        \begin{yellowbox}{Controls}
+            \begin{align*}
+                u_1(t)&:
+                    \text{ Latent replanting}
+                \\
+                u_2(t)&:
+                    \text{ Infected replanting}
+                \\
+                u_3(t)&:
+                    \text{ Fumigation}
+            \end{align*}
+        \tcblower
+        $u_i(t) \in  [0, u_i^{max}]$
+        \end{yellowbox}
+    \end{textblock*}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[plain]
+\begin{textblock*}{120mm}(2mm,5mm)
+    \begin{yellowbox}{Optimal Control Problem}%
+        \begin{align*}
+             g(x, u)
+                :=
+                     A_1 I_p(t) + & A_2 L_p(t) + A_3 I_v(t) %\\
+                    %&
+                    + c_1 u_1(t)^2 + c_2 u_2(t)^2 + c_3 u_3(t)^2 
+             \\
+             \min_{\bar{u}(\cdot)\in  
+                \tilde{\mathcal{U}}_{x_0}[0,T]}
+%                
+                J(u_1,u_2,u_3)
+                &= \int_{0}^T g(x,u) ds
+               \\
+    \text{such that:} \hspace{2cm}& \omit\hfil
+               \\
+        \frac{dS_p}{dt} &=
+            \beta_p S_p I_v +(r +u_1)L_p + (r + u_2) I_p,
+        \\
+        \frac{dL_p}{dt} &=
+            \beta_p S_p I_v -b L_p -(r + u_1)L_p,
+        \\
+        \frac{dI_p}{dt} &= 
+            b L_p - (r + u_2) I_p,
+        \\
+        \frac{dS_v}{dt} &=
+            \beta_v S_v I_p - (\gamma+u_3) S_v +(1-\theta)\mu,
+        \\
+        \frac{dI_v}{dt} &=
+            \beta_v S_v I_p -(\gamma+u_3) I_v +\theta\mu,
+        \\
+        x(0) &= x_0, \qquad 
+        u_i \in [0, u_i^{\max}]
+        \end{align*}
+    \end{yellowbox}
+\end{textblock*}
+\end{frame}
