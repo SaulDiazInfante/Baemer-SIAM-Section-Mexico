@@ -148,7 +148,7 @@
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[plain]
-    \begin{textblock*}{110mm}(10mm,10mm)
+    \begin{textblock*}{70mm}(1mm,5mm)
         \begin{graybox}{Hypothesis:}
             \begin{enumerate}[(\textbf{{SE}}-1)]
                 \item<1->
@@ -165,9 +165,9 @@
                                 h(x)
                             \}
                    $, 
+                    \hspace{-5mm}
                     \begin{align*}
-                        |\psi(t,u,x)-\psi(t,u,\hat{x})|
-                            &
+                        &|\psi(t,u,x)-\psi(t,u,\hat{x})|
                                 \leq L|x-\hat{x}|,
                         \\
                             &
@@ -177,16 +177,19 @@
                                 \in 
                                 \mathbb{R}^n,u \in U,
                         \\
-                        |\psi(t,u,0)|
-                            &\leq 
+                        &|\psi(t,u,0)|
+                            \leq 
                                 L \forall (t,u)
                                 \in[0,T] \times U.
                     \end{align*}  
                 \item<3->
                     $\forall (t,x)\in [0,T]\times \mathbb{R}^n$, the set
+                    \hspace{-5mm}
                     \begin{align*}
-                        (f,\sigma\sigma^T,g)(t,x,U)&:=
-                            \{(
+                        &(f,\sigma\sigma^T,g)(t,x,U)
+                        :=
+                        \\
+                        &\{(
                                 f_i(t,u,x),
                                 (\sigma\sigma^T)^{ij}(t,u,x),g(t,u,x))|
                         \\
@@ -199,17 +202,17 @@
             \end{enumerate}
         \end{graybox}
     \end{textblock*}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \only<5>{
+        \begin{textblock*}{50mm}(75mm, 5mm)
+            \begin{yellowbox}{Existence Theorem (weak formulation)}
+                Under ($\mathbf{SE}$1)-($\mathbf{SE}$4), if (WS) is finite, 
+                then it admits an optimal control.
+            \end{yellowbox}
+        \end{textblock*}
+    }
 \end{frame}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[plain]
-    \begin{textblock*}{100mm}(15mm,20mm)
-        \begin{graybox}{Existence Theorem (weak formulation)}
-            Under ($\mathbf{SE}$1)-($\mathbf{SE}$4), if (WS) is finite, then it 
-            admits an optimal control.
-        \end{graybox}
-    \end{textblock*}
-\end{frame}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[plain]
     \begin{bibunit}[abbrv]
         \nocite{Lions1971}
