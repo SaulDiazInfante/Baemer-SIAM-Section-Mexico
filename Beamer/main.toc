@@ -1,8 +1,0 @@
-\beamer@sectionintoc {1}{Introduction}{2}{0}{1}
-\beamer@sectionintoc {2}{Deterministic optimal policies}{20}{0}{2}
-\beamer@sectionintoc {3}{Existence of deterministic optimal Policies}{33}{0}{3}
-\beamer@sectionintoc {4}{Characterization of optimal policies}{38}{0}{4}
-\beamer@sectionintoc {5}{Numeric Results}{43}{0}{5}
-\beamer@sectionintoc {6}{Stochastic extension}{44}{0}{6}
-\beamer@sectionintoc {7}{Weak Formulation of the OC}{58}{0}{7}
-\beamer@sectionintoc {8}{Perspectives}{58}{0}{8}
